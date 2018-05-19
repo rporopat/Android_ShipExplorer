@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.kvikesh800gmail.relativlayoutjava.Help">
+    tools:context="com.rporopat.relativlayoutjava.Help">
      <TextView
          android:layout_width="match_parent"
          android:layout_height="180dp"
@@ -27,5 +27,8 @@
         android:id="@+id/help"
         android:textAllCaps="false"
         android:textColor="#fff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
         />
 </LinearLayout>

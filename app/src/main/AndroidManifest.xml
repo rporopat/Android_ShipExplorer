@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kvikesh800gmail.relativlayoutjava">
+    package="com.rporopat.relativlayoutjava">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="Quizbook"
+            android:label="ShipExplorer"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,12 +20,12 @@
         </activity>
         <activity
             android:name=".Navigation_Activity"
-            android:label="QuizBook"
+            android:label="ShipExplorer"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kvikesh800gmail.relativlayoutjava.MainActivity" />
+                android:value="com.rporopat.relativlayoutjava.MainActivity" />
         </activity>
         <activity
             android:name=".AboutUs"
@@ -35,7 +35,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+                android:value="com.rporopat.relativlayoutjava.Navigation_Activity" />
         </activity>
         <activity
             android:name=".Questions"
@@ -45,7 +45,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+                android:value="com.rporopat.relativlayoutjava.Navigation_Activity" />
         </activity>
         <activity
             android:name=".Result"
@@ -57,7 +57,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+                android:value="com.rporopat.relativlayoutjava.Navigation_Activity" />
         </activity>
         <activity
             android:name=".Help"
@@ -69,7 +69,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+                android:value="com.rporopat.relativlayoutjava.Navigation_Activity" />
         </activity>
     </application>
 

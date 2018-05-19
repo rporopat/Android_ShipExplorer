@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.kvikesh800gmail.relativlayoutjava.Setting_activity">
+    tools:context="com.rporopat.relativlayoutjava.Setting_activity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:paddingRight="16dp"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.kvikesh800gmail.relativlayoutjava.Settings">
+        tools:context="com.rporopat.relativlayoutjava.Settings">
 
         <TextView
             android:layout_width="match_parent"

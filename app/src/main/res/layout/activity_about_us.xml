@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.kvikesh800gmail.relativlayoutjava.AboutUs">
+    tools:context="com.rporopat.relativlayoutjava.AboutUs">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -42,16 +42,20 @@
                 android:id="@+id/i"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="centerCrop"/>
+
             <TextView
+                android:id="@+id/q"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:text="QuizBook"
                 android:layout_below="@+id/i"
-                android:id="@+id/q"
                 android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
-                android:layout_gravity="center_horizontal"/>
+                android:text="ShipExplorer"
+                android:textSize="24sp"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -59,7 +63,10 @@
                 android:layout_below="@id/q"
                 android:text="Version 1.0.0"
                 android:layout_margin="10dp"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"/>
         </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
@@ -76,7 +83,10 @@
                 android:text="Visit Website"
                 android:textColor="#56a15a"
                 android:background="?attr/selectableItemBackground"
-                android:id="@+id/visit_website"/>
+                android:id="@+id/visit_website"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"/>
 
     </LinearLayout>
 

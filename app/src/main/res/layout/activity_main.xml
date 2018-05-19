@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.kvikesh800gmail.relativlayoutjava.MainActivity">
+    tools:context="com.rporopat.relativlayoutjava.MainActivity">
 
 
     <ImageView

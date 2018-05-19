@@ -6,4 +6,6 @@
 <color name="textColor">#000</color>
 <color name="colorButtonNormal">#009688</color>
 <color name="ripple_white">#fcfcfc</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="transparentAccent">#4F4EE147</color>
 </resources>

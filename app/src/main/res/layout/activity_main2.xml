@@ -31,12 +31,22 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context=".Questions"
         >
+
         <com.github.lzyzsd.circleprogress.DonutProgress
             android:id="@+id/donut_progress"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:visibility="invisible"
             android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:visibility="invisible"
+            android:text="Test"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,16 +76,16 @@
                         android:layout_weight="1"
                         android:padding="10dp"
                         android:onClick="onClick"
-                        android:foreground="?attr/selectableItemBackground"
                         android:textAlignment="center"
                         android:visibility="invisible"
                         android:textAllCaps="false"
                         android:textColor="#ffffff"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:foreground="@drawable/foreground_selector"
+                        android:stateListAnimator="@animator/selector_animator"/>
                     <Button
                         android:id="@+id/OptionB"
                         android:layout_width="0dp"
-                        android:foreground="?attr/selectableItemBackground"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="onClick"
@@ -84,7 +94,9 @@
                         android:textAlignment="center"
                         android:textAllCaps="false"
                         android:textColor="#ffffff"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:foreground="@drawable/foreground_selector"
+                        android:stateListAnimator="@animator/selector_animator"/>
             </LinearLayout>
 
             <LinearLayout
@@ -97,14 +109,15 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:foreground="?attr/selectableItemBackground"
                         android:padding="10dp"
                         android:visibility="invisible"
                         android:textAlignment="center"
                         android:textAllCaps="false"
                         android:onClick="onClick"
                         android:textColor="#ffffff"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:foreground="@drawable/foreground_selector"
+                        android:stateListAnimator="@animator/selector_animator"/>
                     <Button
                         android:id="@+id/OptionD"
                         android:layout_width="0dp"
@@ -114,24 +127,21 @@
                         android:visibility="invisible"
                         android:textAlignment="center"
                         android:onClick="onClick"
-                        android:foreground="?attr/selectableItemBackground"
                         android:textAllCaps="false"
                         android:textColor="#ffffff"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:foreground="@drawable/foreground_selector"
+                        android:stateListAnimator="@animator/selector_animator"/>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
-    <Button
+
+    <ImageButton
         android:id="@+id/play_button"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:onClick="onClick"
-        android:text="Play"
-        android:textSize="40dp"
-        android:foreground="?attr/selectableItemBackground"
-        android:textColor="#fff"
-        android:layout_margin="@dimen/fab_margin"
-        android:background="@drawable/custom_option" />
+        android:background="@android:color/transparent"
+        android:onClick="onClick" />
 
 </android.support.design.widget.CoordinatorLayout>

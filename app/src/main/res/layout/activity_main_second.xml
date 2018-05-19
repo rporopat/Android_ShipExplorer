@@ -8,7 +8,7 @@
     android:background="@drawable/background"
     android:focusable="true"
     android:focusableInTouchMode="true"
-    tools:context="com.kvikesh800gmail.relativlayoutjava.MainActivity">
+    tools:context="com.rporopat.relativlayoutjava.MainActivity">
 
 
     <ImageView
@@ -17,7 +17,8 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        />
 
     <TextView
         android:id="@+id/welcome_name"
@@ -90,7 +91,7 @@
         android:clickable="true"
         android:onClick="showDialog"
         android:layout_marginTop="5dp"
-        android:text="Forgot Password !!"
+        android:text="Forgot Your Password ???"
         android:textColor="#AAFAC8"
         android:textStyle="bold" />
 
@@ -101,12 +102,13 @@
             android:background="@drawable/custom_button"
             android:text="Continue"
             android:textColor="#fff"
-            android:foreground="?attr/selectableItemBackground"
             android:layout_below="@id/relative2"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="70dp"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:foreground="@drawable/foreground_selector"
+            android:stateListAnimator="@animator/selector_animator"/>
 
     <Button
         android:id="@+id/button2"
