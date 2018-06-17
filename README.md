@@ -10,7 +10,7 @@ The salient features of the app are:
    5. User can contact the developer of the app for any queries.
    6. User can also share the app among their friends by email.
    
-The app is designed with Google Material Design that supports the Android versions from Kitkat 4.4.0 to Naugat Oreo 
+The app is designed with Google Material Design that supports the Android versions from Kitkat 4.4.0 to Oreo 
 
 If you want to contact me, then feel free to email me here: poropat.roberto@gmail.com
 
